@@ -1,0 +1,201 @@
+#tuijian{
+	
+	background-color:#C20C0C ;
+	height: 40px;
+}
+#i{
+	margin: 0px auto;
+	width: 570px;
+	background-color: black;
+}
+
+#p{
+	
+	
+}
+#p li{
+	float: left;
+	padding:15px ;
+	overflow: hidden;
+	color: white;
+	margin-top: -8px;
+}
+#o{
+	
+	background-color:black ;
+}
+#o div{
+	width: 980px;
+	margin: 0px auto;
+}
+
+#a{
+	margin-top: -341px;
+	float: right;
+	width: 250px;
+	overflow: hidden;
+	height: 336px;
+}
+#da{
+	margin: 0px auto;
+	width: 987px;
+	height: 1230px;
+	border: #cccccc solid 1px;
+}
+#zuo0{
+	width: 730px;
+	
+	height: 530px;
+}
+#zuo1{
+	width: 730px;
+	
+	height: 50px;
+	border-bottom:red 3px solid ;
+}
+#zuo1 li{
+	float: left;
+	padding:10px ;
+	overflow: hidden;
+}
+#zuo2 li{
+	float: left;
+	padding:20px ;
+	overflow: hidden;
+}
+.tu{
+	width: 140px;
+	height: 50px;
+}
+#zuo11{
+	width: 730px;
+	
+	height: 50px;
+	border-bottom:red 3px solid ;
+}
+#zuo11 li{
+	float: left;
+	padding:10px ;
+	overflow: hidden;
+}
+#zuo22{
+	
+	height: 200px;
+	width: 730px;
+}
+.tu2{
+	width: 100px;
+	height: 25px;
+}
+#xindieshangjia{
+	border: #cccccc solid 1px;
+	height: 180px;
+	width: 700px;
+	margin: 10px;
+	background-color: ;
+}
+#zuo22 li{
+	float: left;
+	padding:15px ;
+	overflow: hidden;
+}
+#zuo111{
+	width: 730px;
+	
+	height: 50px;
+	border-bottom:red 3px solid ;
+}
+#zuo111 li{
+	float: left;
+	padding:10px ;
+	overflow: hidden;
+	
+}
+#biaoge{
+	border: #cccccc solid 1px;
+	height: 90px;
+	width: 700px;
+	margin: 10px;
+	
+}
+#youtu{
+	float: right;
+	width: 260px;
+	
+	overflow: hidden;
+	
+}
+#zuo{
+	border: #cccccc solid 1px;
+	width: 730px;
+	float: left;
+	height: 1230px;
+}
+#you{
+	width: 250px;
+	float: right;
+	overflow: hidden;
+}
+#you1{
+	
+	font-size: 12px;
+	height: 120px;
+	background-color: #F2F2F2;
+}
+#you1 div{
+	margin-left: 20px;
+	
+}
+#youul1 li{
+	float: right;
+	float: left;
+	padding:10px ;
+	overflow: hidden;
+	width: 220px;
+}
+.ruzhugeshou{
+	width: 150px;
+	
+}
+#youul2 li{
+	
+	float: left;
+	padding:10px ;
+	overflow: hidden;
+	width: 220px;
+	
+}
+#zuo2 li{
+				
+				list-style: none;
+				
+				
+				overflow: hidden;
+				
+				
+			}
+			#zuo2 li img{
+				-webkit-transform:scale(1);
+                   -moz-transform:scale(1);
+                   -o-transform:scale(1);
+                   transform:scale(1);
+                   -webkit-transition:all 2s ease;/* Safari 和 Chrome */
+                   -moz-transition:all 2s ease;/*火狐*/
+                   -o-transition:all 2s ease;/*Opera*/
+                   transition:all 2s ease; 
+                   /*ease: 开始和结束慢
+                    all: 默认值，表示指定元素所有支持transition-property属性的样式
+                    * */
+				
+			
+			}
+			#zuo2 li:hover img{
+				        -webkit-transform:scale(1.15);/* Safari 和 Chrome */
+                        -moz-transform:scale(1.15);/*火狐*/
+                        -o-transform:scale(1.15);/*Opera*/
+                        transform:scale(1.15);
+                        -webkit-transition:all 2s ease;/* Safari 和 Chrome */
+                        -moz-transition:all 2s ease;
+                        -o-transition:all 2s ease;
+                        transition:all 2s ease;
+			}

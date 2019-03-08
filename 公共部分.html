@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="css/公共部分.css"  rel="stylesheet" type="text/css"/>
+		<link href="css/首页.css" rel="stylesheet" type="text/css" />
+		<style> 
+		 #nav{
+		 	width:50px;
+		 	height:60px;
+		 	float: right;
+		 	margin-top: -10px;
+		 	
+		 } 
+		 #nav>ul{
+		 	width:800px;
+		 	height:60px;
+		 	margin:0 auto;
+		 }
+		 #nav li{
+		 	list-style: none;
+		 /*	width:100px;
+		 	height:60px;*/
+		 	
+		 	float:left;
+		 	
+		 	line-height:60px;
+		 }
+		 #nav li>a{
+		 	display: block;
+		 	text-decoration: none;
+		 	font-size:20px;
+		 	color:#CCCCCC;
+		 	width:100px;
+		 	height:60px;
+		 	line-height:60px;
+		 	text-align: center;
+		 }
+		 #n>li{
+		 	position:relative;
+		 }
+		 .dl{
+		 	display: none;
+		 	position:absolute;
+		 	top:42px;
+		 	left:0px;
+		 	z-index: 10;
+		 	
+		 }
+		 .dl>dt{
+		 	width:100px;
+		 	height:50px;
+		 	line-height:50px;
+		 	text-align: center;
+		 	background-color:#242424;
+		 	
+		 }
+		 .dl>dt>a{
+		 	text-decoration: none;
+		 	color: white;
+		 }
+		</style>
+	</head>
+	<body>
+		<div id="q">
+			<div id="w">
+				<ul id="e">
+					<li><a href="index.html"><img src="img/QQ图片20180620170019.png"  id="wangyiyun"/></a></li>
+					<li><a href="index.html" style="color:white;text-decoration: none;background-color: #000000;">发现音乐</a></li>
+					<li><a href="我的音乐.html" style="color: #cccccc;text-decoration: none;">我的音乐</a></li>
+					<li><a href="朋友.html" style="color: #CCCCCC;text-decoration: none;">朋友</a></li>
+					<li><a href="商城.html#tou" style="color: #cccccc;text-decoration: none;">商城</a></li>
+					<li><a style="color: #cccccc;text-decoration: none;">音乐人</a></li>
+					<li><a style="color: #cccccc;text-decoration: none;">下载客户端</a></li>
+				</ul>
+				
+				<nav id="nav">
+	  	<ul id="n">
+	  		<li><a href="">登陆</a>
+	  			<dl class="dl" >
+	  				<dt><a href="">手机号登陆</a></dt>
+	  				<dt><a href="">微信登陆</a></dt>
+	  				<dt><a href="">qq登陆</a></dt>
+	  				<dt><a href="">新浪微博登陆</a></dt>
+	  				<dt><a href="">网易邮箱登录</a></dt>
+	  			</dl>
+	  		</li>
+	  		
+	  </nav>
+				
+				<ul id="r">
+					
+					
+					
+					
+					<li><img src="img/QQ图片20180623010142.png" style="width: 100px;margin-top: -10px;"></li>
+					<li><input type="search" value="音乐/视频/电台/用户" style="height:22px;color:  #cccccc;border-radius: 20%;" /></li>
+				</ul>
+			</div>
+			<div id="u">
+				
+			</div>
+			
+			
+			
+		<div id="xiabian">	
+		<div id="t">
+			<ul id="y">
+				<li>关于网易| 客户服务| 服务条款| 网站导航| 意见反馈</li>
+				<li>网易公司版权所有©1997-2018杭州乐读科技有限公司运营：浙网文[2018]3506-263号</li>
+				<li>违法和不良信息举报电话：0571-89853516 举报邮箱：cloudmusicservice@163.com</li>
+			</ul>
+			<ul>
+				<li style="float: right;"><img src="img/QQ图片20180622120135.png" width="300px"</li>
+			</ul>
+		</div>
+		</div>
+		
+		
+		<script>
+	  	var ul=document.getElementById("n");
+	  	var a=ul.getElementsByTagName("a");
+	  	for(var i=0;i<a.length;i++){
+	  		a[i].onmouseover=function(e){
+	  			this.style.backgroundColor="";
+	  		    this.style.color="white";
+	  		     var dl=this.nextElementSibling;
+	  		    dl.style.display="block";
+	  		}
+	  		a[i].onmouseout=function(e){
+	  			this.style.backgroundColor="#242424";
+	  			this.style.color="white";
+	  			 var dl=this.nextElementSibling;
+	  		      dl.style.display="none";
+	  		}
+	  	}
+	  </script>
+	</body>
+</html>

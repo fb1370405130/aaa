@@ -1,0 +1,30 @@
+#wode0{
+	margin: 0px auto;
+	width: 987px;
+	height: 700px;
+	border: #cccccc solid 1px;
+}
+#wode1{
+	width: 550px;
+	float: left;
+	overflow: hidden;
+}
+#wode2{
+	float: right;
+	overflow: hidden;
+	width: 437px;
+}
+
+#tu1{
+	width: 550px;
+	margin-top: 50px;
+}
+#tu2{
+	width: 437px;
+	margin-top: 139px;
+	margin-left:-47px ;
+}
+#tu3{
+	width:160px ;
+	margin-top: 20px;
+}

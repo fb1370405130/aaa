@@ -1,0 +1,104 @@
+.m-wrap {
+    display: block;
+    
+    left: 50%;
+    margin-left: 570px;
+    z-index: 98;
+    width: 60px;
+    height: auto;
+    
+    font-size: 12px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    
+    text-align: center;
+}
+.m-wrap {
+    
+    right: 150px;
+}
+
+
+#zhengti{
+	width: 1400px;
+	margin: 0px auto;
+	
+}
+#tou{
+	
+	margin: 0px auto;
+	height: 68px;
+}
+#tou1{
+	width: 1238px;
+	margin: 0px auto;
+}
+#zuo{
+	width:700px;
+	float: left;
+	overflow: hidden;
+	margin-left: 30px;
+}
+#you{
+	padding-top: 20px;
+}
+#you li{
+	float: right;
+	overflow: hidden;
+	width: 200px;
+}
+#lunbo1{
+	margin: 0px auto;
+	width: 1100px;
+}
+#bo{
+	border-top: #cccccc solid 1px;
+	border-bottom: #cccccc solid 1px;
+	height: 580px;
+}
+#bo1 ul{
+	width: 1100px;
+	margin: 0px auto;
+	
+	height: 90px;
+}
+#bo2 li{
+	float: left;
+	overflow: hidden;
+	padding-left: 200px;
+	height: 70px;
+	margin-top: 20px;
+}
+.shuma{
+	margin-left: 50px;
+	margin-top: -40px;
+}
+#shen{
+	margin:0px auto;
+	width:1100px ;
+	
+	height: 1000px;
+}
+#shen1{
+	width:1100px ;
+	
+	height: 350px;
+}
+#shen11 li{
+	float: left;
+	margin: 25px;
+	overflow: hidden;
+	width: 500px;
+	margin-top: 25px;
+}
+#shangpintu li{
+	float: left;
+	margin: 2px;
+	overflow: hidden;
+	width: 270px;
+	height: 330px;
+}
+.shangpin{
+	width: 250px;
+	background-color:  #f2f2f2;
+}

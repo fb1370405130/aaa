@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="css/公共部分.css"  rel="stylesheet" type="text/css"/>
+		<link href="css/首页.css" rel="stylesheet" type="text/css" />
+		<style>
+body{margin:0; padding:0}
+#to_top{width:30px; height:40px; padding:20px; font:14px/20px arial; text-align:center;  background:#06c; position:absolute; cursor:pointer; color:#fff}
+</style>
+<script>
+window.onload = function(){
+  var oTop = document.getElementById("to_top");
+  var screenw = document.documentElement.clientWidth || document.body.clientWidth;
+  var screenh = document.documentElement.clientHeight || document.body.clientHeight;
+  oTop.style.left = screenw - oTop.offsetWidth +"px";
+  oTop.style.top = screenh - oTop.offsetHeight + "px";
+  window.onscroll = function(){
+    var scrolltop = document.documentElement.scrollTop || document.body.scrollTop;
+    oTop.style.top = screenh - oTop.offsetHeight + scrolltop +"px";
+  }
+  oTop.onclick = function(){
+    document.documentElement.scrollTop = document.body.scrollTop =0;
+  }
+}  
+
+</script>
+
+		<style> 
+		 #nav{
+		 	width:50px;
+		 	height:60px;
+		 	float: right;
+		 	margin-top: -10px;
+		 	
+		 } 
+		 #nav>ul{
+		 	width:800px;
+		 	height:60px;
+		 	margin:0 auto;
+		 }
+		 #nav li{
+		 	list-style: none;
+		 /*	width:100px;
+		 	height:60px;*/
+		 	
+		 	float:left;
+		 	
+		 	line-height:60px;
+		 }
+		 #nav li>a{
+		 	display: block;
+		 	text-decoration: none;
+		 	font-size:20px;
+		 	color:#CCCCCC;
+		 	width:100px;
+		 	height:60px;
+		 	line-height:60px;
+		 	text-align: center;
+		 }
+		 #n>li{
+		 	position:relative;
+		 }
+		 .dl{
+		 	display: none;
+		 	position:absolute;
+		 	top:42px;
+		 	left:0px;
+		 	z-index: 10;
+		 	
+		 }
+		 .dl>dt{
+		 	width:100px;
+		 	height:50px;
+		 	line-height:50px;
+		 	text-align: center;
+		 	background-color:#242424;
+		 	
+		 }
+		 .dl>dt>a{
+		 	text-decoration: none;
+		 	color: white;
+		 }
+		</style>
+	</head>
+	<body style="height:1000px;">
+		<div id="q">
+			<div id="w">
+				<ul id="e">
+					<li><a href="index.html"><img src="img/QQ图片20180620170019.png"  id="wangyiyun"/></a></li>
+					<li><a href="index.html" style="color:white;text-decoration: none;background-color: #000000;">发现音乐</a></li>
+					<li><a href="我的音乐.html" style="color: #cccccc;text-decoration: none;">我的音乐</a></li>
+					<li><a href="朋友.html" style="color: #CCCCCC;text-decoration: none;">朋友</a></li>
+					<li><a href="商城.html#tou" style="color: #cccccc;text-decoration: none;">商城</a></li>
+					<li><a style="color: #cccccc;text-decoration: none;">音乐人</a></li>
+					<li><a style="color: #cccccc;text-decoration: none;">下载客户端</a></li>
+				</ul>
+				
+				<nav id="nav">
+	  	<ul id="n">
+	  		<li><a href="">登陆</a>
+	  			<dl class="dl" >
+	  				<dt><a href="">手机号登陆</a></dt>
+	  				<dt><a href="">微信登陆</a></dt>
+	  				<dt><a href="">qq登陆</a></dt>
+	  				<dt><a href="">新浪微博登陆</a></dt>
+	  				<dt><a href="">网易邮箱登录</a></dt>
+	  			</dl>
+	  		</li>
+	  		
+	  </nav>
+				
+				<ul id="r">
+					
+					
+					
+					
+					<li><img src="img/QQ图片20180623010142.png" style="width: 100px;margin-top: -10px;"></li>
+					<li><input type="search" value="音乐/视频/电台/用户" style="height:22px;color:  #cccccc;border-radius: 20%;" /></li>
+				</ul>
+			</div>
+			<div id="u">
+				
+			</div>
+			<div id="tuijian">
+			<div id="i">
+			<ul id="p">
+					<li><div style="background-color:red;border-radius: 20%;width: 35px;"><a href="index.html" style="color: white;text-decoration: none;">推荐</a></div></li>
+					<li><a href="排行榜1.html" style="color: white;text-decoration: none;">排行榜</a></li>
+					<li>歌单</li>
+					<li>主播电台</li>
+					<li>歌手</li>
+					<li>新碟上架</li>
+			</ul>
+			</div>
+			</div>
+		<div id="o">
+			<div>
+				<img src="img/109951163366427657.jpg"  id="GUNDONG" />
+			</div>
+			<script type="text/javascript">
+			var index=0;
+			function fun(){
+				var pic=["3b6.jpg","JfeJMRDMDp3aRzmWytBSIA==_109951163368047904.png","EnI_Eu9jzTm6tyyr98WiQA==_109951163368047450.jpg","CT4p-Mom6BTkTuerughp6w==_109951163368051278.jpg","sflcn8YbJhMEJRJZ5YDO8Q==_109951163368050853.jpg","H5hxr_NDc62l1vM6I1iY1Q==_109951163365335529.jpg","Wx0SUxkECP47hCSU8kD-fg==_109951163366421937.jpg","79LFQcMzOwCnkGnfJWsSDw==_109951163368049884.jpg" ];
+				var img=document.getElementById("GUNDONG");
+				img.src="img/"+pic[index];
+				index++;
+				if(index==8){
+					index=0; 
+				}
+			}
+			var timer=setInterval(fun,3000);
+			var img=document.getElementById("GUNDONG");
+			img.onmouseover=function(){
+				clearInterval(timer);
+			}
+			img.onmouseout=function(){
+				timer =setInterval(fun,3000);
+			}
+		</script>
+
+			
+			<div>
+				<img src="img/QQ图片20180620164003.png"  id="a"/>
+			</div>
+		</div>
+		<div id="da"> <!--大的div-->
+            <div id="zuo"><!--左边的div-->
+            	<div id="zuo0"><!--左边的第一个div-->
+            		<ul id="zuo1">
+            			<li><img src="img/QQ图片20180621110412.png" height="25px"></li>
+            			<li><strong>热门推荐</strong></li>
+            			<li> 华语 |</li>
+            			<li> 流行 |</li>
+            			<li> 摇滚 |</li>
+            			<li> 民谣 |</li>
+            			<li> 电子 </li>
+            			<li>更多 </li>
+            		</ul>
+            		<ul id="zuo2">
+            			<li><img src="img/109951163353030761.jpg"><p class="tu">当足球遇上音乐，当球员跨界歌坛</p></li>
+            			<li><img src="img/109951163331134595.jpg"><p class="tu">诗与歌的相遇，被唱出来的现代诗</p></li>
+            			<li><img src="img/109951163194369056.jpg"><p class="tu">「孤独与愁」霓虹雨巷 孑然一身</p></li>
+            			<li><img src="img/109951163365536358.jpg"><p class="tu"> 【闯先生】Vol.363 和曾经的自己不期而遇</p></li>
+            			<li><img src="img/109951163218295276.jpg"><p class="tu">『致逝者』心爱的人，永远守护着你</p></li>
+            			<li><img src="img/109951163360023681.jpg"><p class="tu"> 可能否（cover木小雅）</p></li>
+            			<li><img src="img/109951163270283824.jpg"><p class="tu">『港片经典』江湖枪火，当年情风继续吹</p></li>
+            			<li><img src="img/109951163333873803.jpg"><p class="tu"> 答案完整版（cover郭采洁/杨坤）</p></li>
+            		</ul>
+            	</div>
+            	<div id="zuo00"><!--左边的第二个div-->
+            		<ul id="zuo11">
+            			<li><img src="img/QQ图片20180621110412.png" height="25px"></li>
+            			<li><strong>新碟上架</strong></li>
+            		</ul>
+            		<div id="xindieshangjia">
+            		<ul id="zuo22">
+            			<li><img src="img/109951163336294560.jpg"><p class="tu2">F.L.Y.BOYSF.L.Y.</br>GIRLSGENERATIONS</p></li>
+            			<li><img src="img/109951163351499843.jpg"><p class="tu2">Ocean</br>Martin Garrix  /  K</p></li>
+            			<li><img src="img/109951163349808365.jpg"><p class="tu2">Red Diary Page.2</br>脸红的思春期</p></li>
+            			<li><img src="img/109951163352630593.jpg"><p class="tu2">Dance To This</br>Troye Sivan  /  Ar</p></li>
+            			<li><img src="img/109951163302888245.jpg"><p class="tu2">E能量</br>群星 </p></li>
+            		</ul>
+            		</div>
+            	</div>
+            	<div id="zuo000"><!--左边的第三个div-->
+            		<ul id="zuo111">
+            			<li><img src="img/QQ图片20180621110412.png" height="25px"></li>
+            			<li><strong>榜单</strong></li>
+            		</ul>
+            		<table id="biaoge">
+            		<tr class="paihangbang">
+            			<td><img src="img/7.jpg"><a href="排行榜1.html" style="text-decoration: none;">云音乐飙升榜</a></td>
+            			<td><img src="img/8.jpg"><a href="排行榜1.html" style="text-decoration: none;">云音乐新歌榜</a></td>
+            			<td><img src="img/9.jpg"><a href="排行榜1.html" style="text-decoration: none;">网易原创歌曲榜</a></td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td>1 盗将行</td>
+            			<td>1 可能否</td>
+            			<td>1 Waiting For</td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td></td>
+            			<td></td>
+            			<td></td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td>2 给陌生的你听 </td>
+            			<td>2 给陌生的你听</td>
+            			<td>2 海盗船长2.0</td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td>3 I'm Cool</td>
+            			<td>3 窗</td>
+            			<td>3 一场烟火表演</td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td>4 the light is coming</td>
+            			<td>4  那是你离开了北</td>
+            			<td>4 情书</td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td>5 Sons of Summer (夏日之子）</td>
+            			<td>5 如约而至</td>
+            			<td>5 做回自己</td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td>6 Waiting For</td>
+            			<td>6 往后余生（翻自 马良）</td>
+            			<td>6 小黑</td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td>7 足够</td>
+            			<td>7 繁华梦</td>
+            			<td>7 逆旅</td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td>8 浪人琵琶</td>
+            			<td>8 Live It Up </td>
+            			<td>8 皆允</td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td>9 你要的全拿走</td>
+            			<td>9 I'm Cool</td>
+            			<td>9 秋呢喃</td>
+            		</tr>
+            		<tr class="paihangbang">
+            			<td>10 LA LA</td>
+            			<td>10 Dance To This</td>
+            			<td>10 孤独诊所</td>
+            		</tr>
+            		</table>
+            	</div>
+            </div>
+            
+			<div id="you"><!--右边的div-->
+				<div id="you1"><!--右边第一个div-->
+						<div><p style="padding-top: 30px;">登录网易云音乐，可以享受无限收藏的</br>乐趣，并且无限同步到手机</p></div>
+					
+						<a href="公共部分.html"><input type="button" value="立即登陆" style="background-color:#C20C0C;margin-left: 70px;margin-top: 10px;color: white;height: 30px;width: 100px;border-radius: 20%;"/></a>
+					
+				</div>
+				<div id="you2"><!--右边第二个div-->
+					
+						
+					
+					<ul id="youul1">
+						<li style="border-bottom: #cccccc solid 1px;"><strong>入注歌手</strong></li>
+						<li><img src="img/610340.jpg"><img src="img/QQ图片20180622111222.png" class="ruzhugeshou"></li>
+						<li><img src="img/408956.jpg"><img src="img/QQ图片20180622111228.png" class="ruzhugeshou"></li>
+						<li><img src="img/765608.jpg"><img src="img/QQ图片20180622111235.png" class="ruzhugeshou"></li>
+						<li><img src="img/291094.jpg"><img src="img/QQ图片20180622111244.png" class="ruzhugeshou"></li>
+						<li><img src="img/674268.jpg"><img src="img/QQ图片20180622111249.png" class="ruzhugeshou"></li>
+						<li><input type="button" value="申请成为网易音乐人" style="width: 210px;height: 25px;"/ ></li>
+					</ul>
+				</div>
+				<div id="you3"><!--右边第三个div-->
+					<ul id="youul2">
+						<li style="border-bottom: #cccccc solid 1px;"><strong>热门主播</strong></li>
+						<li><img src="img/3913311.jpg"><p style="float: right;font-size: 15px;width: 180px;">梅凌铖 </br>新蔡县贝斯门驻唱歌手</p></li>
+						<li><img src="img/1461517.jpg"><p style="float: right;font-size: 15px;">DJ艳秋</br>著名、音乐、节目、主持人</p></li>
+						<li><img src="img/9086282.jpg"><p style="float: right;font-size: 15px;">国家大剧院古典音乐频道</br>国家大剧院、古典音乐官方</p></li>
+						<li><img src="img/4335651.jpg"><p style="float: right;font-size: 15px;">谢谢收听</br>南京、电台、主持人、王馨</p></li>
+						<li><img src="img/4651965.jpg"><p style="float: right;font-size: 15px;">DJ晓苏</br>独立DJ，CRI环球旅游广播</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			
+			<audio autoplay="autoplay">
+				<source src="img/王俊凯 - 青蛙也会变王子.mp3"></source>
+			</audio>
+
+
+			
+			
+		<div id="xiabian">	
+		<div id="t">
+			<ul id="y">
+				<li>关于网易| 客户服务| 服务条款| 网站导航| 意见反馈</li>
+				<li>网易公司版权所有©1997-2018杭州乐读科技有限公司运营：浙网文[2018]3506-263号</li>
+				<li>违法和不良信息举报电话：0571-89853516 举报邮箱：cloudmusicservice@163.com</li>
+			</ul>
+			<ul>
+				<li style="float: right;"><img src="img/QQ图片20180622120135.png" width="300px"</li>
+			</ul>
+		</div>
+		</div>
+		
+		
+		<script>
+	  	var ul=document.getElementById("n");
+	  	var a=ul.getElementsByTagName("a");
+	  	for(var i=0;i<a.length;i++){
+	  		a[i].onmouseover=function(e){
+	  			this.style.backgroundColor="#242424";
+	  		    this.style.color="white";
+	  		     var dl=this.nextElementSibling;
+	  		    dl.style.display="block";
+	  		}
+	  		a[i].onmouseout=function(e){
+	  			this.style.backgroundColor="#242424";
+	  			this.style.color="white";
+	  			 var dl=this.nextElementSibling;
+	  		      dl.style.display="none";
+	  		}
+	  	}
+	  </script>
+	  <div id="to_top">返回顶部</div>
+
+	</body>
+</html>

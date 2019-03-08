@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/公共部分.css" rel="stylesheet" type="text/css" />
+		<link href="css/商城.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="zhengti">
+			<a name="tou"></a>
+		<div id="tou">
+			<div id="tou1">
+			<ul id="zuo">
+				<li><a href="index.html"><img src="img/QQ图片20180624144220.png" style="width: 390px;"/></a></li>
+			</ul>
+			<ul id="you">
+				<li>登陆</li>
+				<li><input type="search" value="耳机"/></li>
+			</ul>
+			</div>
+		</div>
+		<div id="bo">
+			<div id="lunbo1">
+				<img src="img/109951163355997110.jpg" id="lunbo" />
+			</div>
+			<script type="text/javascript">
+			var index=0;
+			function fun(){
+				var pic=["109951163368298221.jpg","109951163368641761.jpg","109951163370039319.jpg","109951163370745681.jpg","109951163370755540.jpg","109951163355997110.jpg","","" ];
+				var img=document.getElementById("lunbo");
+				img.src="img/"+pic[index];
+				index++;
+				if(index==6){
+					index=0; 
+				}
+			}
+			var timer=setInterval(fun,3000);
+			var img=document.getElementById("lunbo");
+			img.onmouseover=function(){
+				clearInterval(timer);
+			}
+			img.onmouseout=function(){
+				timer =setInterval(fun,3000);
+			}
+		</script>
+			<div id="bo1">
+			<ul id="bo2">
+				<li><img src="img/18585045029.jpg"/><h3 class="shuma">数码影视</h3></li>
+				<li><img src="img/1862939.jpg"/><h3 class="shuma">IP周边</h3></li>
+				<li><img src="img/19117378.jpg"/><h3 class="shuma">热销爆品</h3></li>
+			</ul>
+			</div>
+		</div>
+		<div class="m-wrap" id="m-top" style="position:fixed;top:50%;margin-top: -138px;bottom: auto;">
+			<div class="m-item m-back" date-action="top"><img src="img/QQ图片20180625141541.png"/></div>
+			<div class="m-item m-back" date-action="top"><a href="#tou" class="j-topot"><img src="img/QQ图片20180625141739.png"/></a></div>
+		</div>
+		<div id="shen"><!--中间大div-->
+			<div id="shen1"><!--中间第一个div-->
+				<ul id=shen11>
+					<li><img src="img/145.jpg"/></li>
+					<li><img src="img/549.jpg"/></li>
+				</ul>
+            </div>
+            <div id="shen2"><!--中间第二个div-->
+            	<ul>
+            		<li><h2>编辑推荐</h2></li>
+            	</ul>
+            	<ul id="shangpintu">
+            		<li><img src="img/18865420509.jpg" class="shangpin"/><p style="text-align: center;font-size: 13px;"> 热门 【网易云音乐专供款】漫步者</br>W280X 无线蓝牙入耳式运动耳机磁吸耳塞 </br>¥169 </p></li>
+            		<li><img src="img/10995116303.jpg" class="shangpin"/><p style="text-align: center;font-size: 13px;">特价 【预售】哆啦探索·哆啦A梦海洋大作</br>战手机壳 </br>¥39 </p></li>
+            		<li><img src="img/10995116301.jpg" class="shangpin"/><p style="text-align: center;font-size: 13px;">特价 【预售】哆啦探索·哆啦A梦音乐地图</br>手帐 手帐本（赠手帐签3款） </br>¥119 (黑胶VIP ¥106) </p></li>
+            		<li><img src="img/10995116342.jpg" class="shangpin"/><p style="text-align: center;font-size: 13px;">特价 【网易云音乐专供款】击音XT800金</br>属磁吸入耳式HiFi耳机 </br>¥69 </p></li>
+            		<li><img src="img/18984167767.jpg" class="shangpin"/><p style="text-align: center;font-size: 13px;">热门 网易云音乐蓝牙音频接收器 </br>¥119 </p></li>
+            		<li><img src="img/10995116362.jpg" class="shangpin"/><p style="text-align: center;font-size: 13px;">特价 【新鲜到货】哆啦A梦cloudlele系列</br>·记忆尤克里里D1款入门款（赠送定制琴包</br>和定制胸章） </br>¥458 (黑胶VIP ¥456) </p></li>
+            		<li><img src="img/10995116307.jpg" class="shangpin"/><p style="text-align: center;font-size: 13px;">特价 【预售，用券减30】哆啦探索·哆啦A</br>梦T恤 LOGO款（男女同款） </br>¥129 </p></li>
+            		<li><img src="img/19235955929.jpg" class="shangpin"/><p style="text-align: center;font-size: 13px;">特价 【网易云音乐专供款】漫步者</br>W800X立体声头戴式蓝牙耳机 </br>¥199 </p></li>
+            		
+            	</ul>
+            </div>
+            <div><!--中间第三个div-->
+            	
+            </div>
+            <div><!--中间第四个div-->
+            	
+            </div>
+		</div>
+		<div style="height: 100px;">
+			
+		</div>
+		</div>
+		<div id="xiabian">	
+		<div id="t">
+			<ul id="y">
+				<li>关于网易| 客户服务| 服务条款| 网站导航| 意见反馈</li>
+				<li>网易公司版权所有©1997-2018杭州乐读科技有限公司运营：浙网文[2018]3506-263号</li>
+				<li>违法和不良信息举报电话：0571-89853516 举报邮箱：cloudmusicservice@163.com</li>
+			</ul>
+			<ul>
+				<li style="float: right;"><img src="img/QQ图片20180622120135.png" width="300px"</li>
+			</ul>
+		</div>
+		</div>
+		
+	</body>
+</html>

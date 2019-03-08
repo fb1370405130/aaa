@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+body{margin:0; padding:0}
+#to_top{border-radius: 50%; width:30px; height:40px; padding:20px; font:14px/20px arial; text-align:center;  background:#06c; position:absolute; cursor:pointer; color:#fff}
+</style>
+
+		<link href="css/公共部分.css"  rel="stylesheet" type="text/css"/>
+		
+		<link rel="stylesheet" type="text/css" href="css/排行榜.css"/>
+		<style> 
+		 #nav{
+		 	width:50px;
+		 	height:60px;
+		 	float: right;
+		 	margin-top: -10px;
+		 	
+		 } 
+		 #nav>ul{
+		 	width:800px;
+		 	height:60px;
+		 	margin:0 auto;
+		 }
+		 #nav li{
+		 	list-style: none;
+		 /*	width:100px;
+		 	height:60px;*/
+		 	
+		 	float:left;
+		 	
+		 	line-height:60px;
+		 }
+		 #nav li>a{
+		 	display: block;
+		 	text-decoration: none;
+		 	font-size:20px;
+		 	color:white;
+		 	width:100px;
+		 	height:60px;
+		 	line-height:60px;
+		 	text-align: center;
+		 }
+		 #n>li{
+		 	position:relative;
+		 }
+		 .dl{
+		 	display: none;
+		 	position:absolute;
+		 	top:42px;
+		 	left:0px;
+		 	z-index: 10;
+		 	
+		 }
+		.dl>dt{
+		 	width:100px;
+		 	height:50px;
+		 	line-height:50px;
+		 	text-align: center;
+		 	background-color:#242424;
+		 	
+		 }
+		 .dl>dt>a{
+		 	text-decoration: none;
+		 	color: white;
+		 }
+		</style>
+	</head>
+	<body style="height:1000px;">
+		<div id="q">
+			<div id="w">
+				<ul id="e">
+					<li><a href="首页.html"><img src="img/QQ图片20180620170019.png"  id="wangyiyun"/></a></li>
+					<li><a href="首页.html" style="color: white;text-decoration: none;">发现音乐</a></li>
+					<li><a href="我的音乐.html" style="color: white;text-decoration: none;">我的音乐</a></li>
+					<li><a href="朋友.html" style="color: white;text-decoration: none;">朋友</a></li>
+					<li><a href="朋友.html#tou" style="color: white;text-decoration: none;">商城</a></li>
+					<li>音乐人</li>
+					<li>下载客户端</li>
+				</ul>
+				
+				<nav id="nav">
+	  	<ul id="n">
+	  		<li><a href="">登陆</a>
+	  			<dl class="dl" >
+	  				<dt><a href="">手机号登陆</a></dt>
+	  				<dt><a href="">微信登陆</a></dt>
+	  				<dt><a href="">qq登陆</a></dt>
+	  				<dt><a href="">新浪微博登陆</a></dt>
+	  				<dt><a href="">网易邮箱登录</a></dt>
+	  			</dl>
+	  		</li>
+	  		
+	  </nav>
+				
+				<ul id="r">
+					
+					<li><img src="img/QQ图片20180623010142.png" style="width: 100px;margin-top: -10px;"></li>
+					<li><input type="search" value="音乐/视频/电台/用户" style="opacity: 1;" /></li>
+				</ul>
+			</div>
+			<div id="u">
+				
+			</div>
+			<div id="tuijian">
+			<div id="i">
+			<ul id="p">
+					<li><a href="首页.html" style="color: white;text-decoration: none;">推荐</a></li>
+					<li><a href="排行榜1.html" style="color: white;text-decoration: none;">排行榜</a></li>
+					<li>歌单</li>
+					<li>主播电台</li>
+					<li>歌手</li>
+					<li>新碟上架</li>
+			</ul>
+			</div>
+			</div> 
+			
+			<div style="height: 6700px;">
+				<div style="width: 860px;margin: 0px auto;height: 6700px;border-right: #cccccc solid 1px  ;">
+					<div style="width: 250px;height: 6700px;border-left: #cccccc solid 1px ;border-right: #cccccc solid 1px  ;">
+						<h4>云音乐特色榜</h4>
+						<ul>
+							<li class="tesebang"><a href="排行榜1.html"><img src="img/18697.jpg"/></a>
+								<div class="fangbo"><p>云音乐飙升榜</p><p>每天更新</p></div>
+							</li>
+							<li class="tesebang"><a href="排行榜2.html"><img src="img/18748.jpg"/></a>
+								<div class="fangbo"><p>云音乐新歌榜</p><p>每天更新</p></div>
+							</li>
+							<li class="tesebang"><a href="排行榜3.html"><img src="img/18788.jpg"/></a>
+								<div class="fangbo"><p>网易原创歌曲榜</p><p>每周四更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>云音乐热歌榜</p><p>每周四更新</p></div>
+							</li>
+						</ul>
+						<h4>全球媒体榜</h4>
+						<ul>
+							<li class="tesebang"><img src="img/18697.jpg"/>
+								<div class="fangbo"><p>云音乐电音榜</p><p>每周五更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18748.jpg"/>
+								<div class="fangbo"><p>云音乐嘻哈榜</p><p>每周五更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18788.jpg"/>
+								<div class="fangbo"><p>抖音排行榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>英国Q杂志中文版周榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>英国Q杂志中文版周榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>电竞音乐榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>云音乐新电力榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>音音乐ACG音乐榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>云音乐古典音乐榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>UK排行榜周榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>美国Billboard周榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>Beatport全球电子舞曲榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>法国 NRJ Vos Hits 周榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>KTV唛榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>iTunes榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>日本Oricon周榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>Hit FM Top榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>台湾Hito排行榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>中国TOP排行榜（港台榜）</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>中国TOP排行榜（内地榜）</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>香港电台中文歌曲龙虎榜</p><p>每周三更新</p></div>
+							</li>
+							<li class="tesebang"><img src="img/18791.jpg"/>
+								<div class="fangbo"><p>中国嘻哈榜</p><p>每周三更新</p></div>
+							</li>
+						</ul>
+					</div>
+					<div style=" height: 6700px;width: 600px;float: right;overflow: hidden; margin-top: -6700px;">
+						<div style="height: 160px;width: 500px;float: left;margin: 20px;">
+							<div style="padding: 5px;width: 150px;height: 150px; float: left;overflow: hidden;border: #cccccc solid 1px  ;" >
+								<img src="img/8.jpg" style="width: 150px;"></div>
+							<div style="float: left;overflow: hidden;width: 280px;height: 130px;margin: 20px;">
+								<h2 >云音乐新歌榜</h2>
+								<h5 style="margin-top: 10px;">最近更新：06月28（每天更新）</h5>
+								<p>
+									<ul id="biaoshengbang"><li><input type="button" value="播放" /><input type="button" value="+" /></li>
+										<li><input type="button" value="收藏" /></li>
+										<li><input type="button" value="转发" /></li>
+										<li><input type="button" value="下载" /></li>
+										<li><input type="button" value="评论" /></li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<div style="height: 30px;width: 500px;float: left;margin: 20px;">
+							<ul id="gequliebiao1">
+								<li style="margin-right: 20px;"><h3>歌曲列表</h3></li>
+								<li style="font-size: 10px;margin-top: 10px;">一百首歌</li>
+							</ul >
+							<ul id="gequliebiao2">
+								<li>次</li>
+								<li style="color: red;margin-top: 1px;">1109920512</li>
+								<li>播放:</li>
+							</ul>
+						</div>
+						<div style="height: 1500px;width: 500px;float: left;margin: 20px;">
+						<table style="margin-left: 10px;border-top:red solid 2px ;border-left: #cccccc solid 1px ;border-right: #cccccc solid 1px ;border-bottom: #cccccc solid 1px ;"/>
+							<tr id="ss2018627"><td class="td1"></td><td class="td4"></td><td class="td2">标题</td><td class="td3">时长</td><td class="td3">歌手</td></tr>
+							<tr class="tr1"><td class="td1">1</td><td class="td4">new</td><td class="td2">往后余生（翻自马良）</td><td class="td3">03：51</td><td class="td3">王贰浪</td></tr>
+							<tr class="tr2"><td class="td1">2</td><td class="td4">new</td><td class="td2">渐渐</td><td class="td3">04：38</td><td class="td3">陈奕迅</td></tr>
+							<tr class="tr1"><td class="td1">3</td><td class="td4">new</td><td class="td2">let it Go</td><td class="td3">02：49</td><td class="td3">88rising...</td></tr>
+							<tr class="tr2"><td class="td1">4</td><td class="td4">new</td><td class="td2">王牌冤家</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">5</td><td class="td4">new</td><td class="td2">哑巴</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">6</td><td class="td4">new</td><td class="td2">丑八怪</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr1"><td class="td1">7</td><td class="td4">new</td><td class="td2">方圆几里</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">8</td><td class="td4">new</td><td class="td2">不将就</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">9</td><td class="td4">new</td><td class="td2">李白</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr2"><td class="td1">10</td><td class="td4">new</td><td class="td2">小半</td><td class="td3">02：49</td><td class="td3">陈粒</td></tr>
+							<tr class="tr1"><td class="td1">1</td><td class="td4">new</td><td class="td2">往后余生（翻自马良）</td><td class="td3">03：51</td><td class="td3">王贰浪</td></tr>
+							<tr class="tr2"><td class="td1">2</td><td class="td4">new</td><td class="td2">渐渐</td><td class="td3">04：38</td><td class="td3">陈奕迅</td></tr>
+							<tr class="tr1"><td class="td1">3</td><td class="td4">new</td><td class="td2">let it Go</td><td class="td3">02：49</td><td class="td3">88rising...</td></tr>
+							<tr class="tr2"><td class="td1">4</td><td class="td4">new</td><td class="td2">王牌冤家</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">5</td><td class="td4">new</td><td class="td2">哑巴</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">6</td><td class="td4">new</td><td class="td2">丑八怪</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr1"><td class="td1">7</td><td class="td4">new</td><td class="td2">方圆几里</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">8</td><td class="td4">new</td><td class="td2">不将就</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">9</td><td class="td4">new</td><td class="td2">李白</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr2"><td class="td1">10</td><td class="td4">new</td><td class="td2">小半</td><td class="td3">02：49</td><td class="td3">陈粒</td></tr>
+						<tr class="tr1"><td class="td1">1</td><td class="td4">new</td><td class="td2">往后余生（翻自马良）</td><td class="td3">03：51</td><td class="td3">王贰浪</td></tr>
+							<tr class="tr2"><td class="td1">2</td><td class="td4">new</td><td class="td2">渐渐</td><td class="td3">04：38</td><td class="td3">陈奕迅</td></tr>
+							<tr class="tr1"><td class="td1">3</td><td class="td4">new</td><td class="td2">let it Go</td><td class="td3">02：49</td><td class="td3">88rising...</td></tr>
+							<tr class="tr2"><td class="td1">4</td><td class="td4">new</td><td class="td2">王牌冤家</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">5</td><td class="td4">new</td><td class="td2">哑巴</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">6</td><td class="td4">new</td><td class="td2">丑八怪</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr1"><td class="td1">7</td><td class="td4">new</td><td class="td2">方圆几里</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">8</td><td class="td4">new</td><td class="td2">不将就</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">9</td><td class="td4">new</td><td class="td2">李白</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr2"><td class="td1">10</td><td class="td4">new</td><td class="td2">小半</td><td class="td3">02：49</td><td class="td3">陈粒</td></tr>
+						<tr class="tr1"><td class="td1">1</td><td class="td4">new</td><td class="td2">往后余生（翻自马良）</td><td class="td3">03：51</td><td class="td3">王贰浪</td></tr>
+							<tr class="tr2"><td class="td1">2</td><td class="td4">new</td><td class="td2">渐渐</td><td class="td3">04：38</td><td class="td3">陈奕迅</td></tr>
+							<tr class="tr1"><td class="td1">3</td><td class="td4">new</td><td class="td2">let it Go</td><td class="td3">02：49</td><td class="td3">88rising...</td></tr>
+							<tr class="tr2"><td class="td1">4</td><td class="td4">new</td><td class="td2">王牌冤家</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">5</td><td class="td4">new</td><td class="td2">哑巴</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">6</td><td class="td4">new</td><td class="td2">丑八怪</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr1"><td class="td1">7</td><td class="td4">new</td><td class="td2">方圆几里</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">8</td><td class="td4">new</td><td class="td2">不将就</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">9</td><td class="td4">new</td><td class="td2">李白</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr2"><td class="td1">10</td><td class="td4">new</td><td class="td2">小半</td><td class="td3">02：49</td><td class="td3">陈粒</td></tr>
+						<tr class="tr1"><td class="td1">1</td><td class="td4">new</td><td class="td2">往后余生（翻自马良）</td><td class="td3">03：51</td><td class="td3">王贰浪</td></tr>
+							<tr class="tr2"><td class="td1">2</td><td class="td4">new</td><td class="td2">渐渐</td><td class="td3">04：38</td><td class="td3">陈奕迅</td></tr>
+							<tr class="tr1"><td class="td1">3</td><td class="td4">new</td><td class="td2">let it Go</td><td class="td3">02：49</td><td class="td3">88rising...</td></tr>
+							<tr class="tr2"><td class="td1">4</td><td class="td4">new</td><td class="td2">王牌冤家</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">5</td><td class="td4">new</td><td class="td2">哑巴</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">6</td><td class="td4">new</td><td class="td2">丑八怪</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr1"><td class="td1">7</td><td class="td4">new</td><td class="td2">方圆几里</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">8</td><td class="td4">new</td><td class="td2">不将就</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">9</td><td class="td4">new</td><td class="td2">李白</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr2"><td class="td1">10</td><td class="td4">new</td><td class="td2">小半</td><td class="td3">02：49</td><td class="td3">陈粒</td></tr>
+						<tr class="tr1"><td class="td1">1</td><td class="td4">new</td><td class="td2">往后余生（翻自马良）</td><td class="td3">03：51</td><td class="td3">王贰浪</td></tr>
+							<tr class="tr2"><td class="td1">2</td><td class="td4">new</td><td class="td2">渐渐</td><td class="td3">04：38</td><td class="td3">陈奕迅</td></tr>
+							<tr class="tr1"><td class="td1">3</td><td class="td4">new</td><td class="td2">let it Go</td><td class="td3">02：49</td><td class="td3">88rising...</td></tr>
+							<tr class="tr2"><td class="td1">4</td><td class="td4">new</td><td class="td2">王牌冤家</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">5</td><td class="td4">new</td><td class="td2">哑巴</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">6</td><td class="td4">new</td><td class="td2">丑八怪</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr1"><td class="td1">7</td><td class="td4">new</td><td class="td2">方圆几里</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">8</td><td class="td4">new</td><td class="td2">不将就</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">9</td><td class="td4">new</td><td class="td2">李白</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr2"><td class="td1">10</td><td class="td4">new</td><td class="td2">小半</td><td class="td3">02：49</td><td class="td3">陈粒</td></tr>
+						<tr class="tr1"><td class="td1">1</td><td class="td4">new</td><td class="td2">往后余生（翻自马良）</td><td class="td3">03：51</td><td class="td3">王贰浪</td></tr>
+							<tr class="tr2"><td class="td1">2</td><td class="td4">new</td><td class="td2">渐渐</td><td class="td3">04：38</td><td class="td3">陈奕迅</td></tr>
+							<tr class="tr1"><td class="td1">3</td><td class="td4">new</td><td class="td2">let it Go</td><td class="td3">02：49</td><td class="td3">88rising...</td></tr>
+							<tr class="tr2"><td class="td1">4</td><td class="td4">new</td><td class="td2">王牌冤家</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">5</td><td class="td4">new</td><td class="td2">哑巴</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">6</td><td class="td4">new</td><td class="td2">丑八怪</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr1"><td class="td1">7</td><td class="td4">new</td><td class="td2">方圆几里</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">8</td><td class="td4">new</td><td class="td2">不将就</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">9</td><td class="td4">new</td><td class="td2">李白</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr2"><td class="td1">10</td><td class="td4">new</td><td class="td2">小半</td><td class="td3">02：49</td><td class="td3">陈粒</td></tr>
+						<tr class="tr1"><td class="td1">1</td><td class="td4">new</td><td class="td2">往后余生（翻自马良）</td><td class="td3">03：51</td><td class="td3">王贰浪</td></tr>
+							<tr class="tr2"><td class="td1">2</td><td class="td4">new</td><td class="td2">渐渐</td><td class="td3">04：38</td><td class="td3">陈奕迅</td></tr>
+							<tr class="tr1"><td class="td1">3</td><td class="td4">new</td><td class="td2">let it Go</td><td class="td3">02：49</td><td class="td3">88rising...</td></tr>
+							<tr class="tr2"><td class="td1">4</td><td class="td4">new</td><td class="td2">王牌冤家</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">5</td><td class="td4">new</td><td class="td2">哑巴</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">6</td><td class="td4">new</td><td class="td2">丑八怪</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr1"><td class="td1">7</td><td class="td4">new</td><td class="td2">方圆几里</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">8</td><td class="td4">new</td><td class="td2">不将就</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">9</td><td class="td4">new</td><td class="td2">李白</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr2"><td class="td1">10</td><td class="td4">new</td><td class="td2">小半</td><td class="td3">02：49</td><td class="td3">陈粒</td></tr>
+						<tr class="tr1"><td class="td1">1</td><td class="td4">new</td><td class="td2">往后余生（翻自马良）</td><td class="td3">03：51</td><td class="td3">王贰浪</td></tr>
+							<tr class="tr2"><td class="td1">2</td><td class="td4">new</td><td class="td2">渐渐</td><td class="td3">04：38</td><td class="td3">陈奕迅</td></tr>
+							<tr class="tr1"><td class="td1">3</td><td class="td4">new</td><td class="td2">let it Go</td><td class="td3">02：49</td><td class="td3">88rising...</td></tr>
+							<tr class="tr2"><td class="td1">4</td><td class="td4">new</td><td class="td2">王牌冤家</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">5</td><td class="td4">new</td><td class="td2">哑巴</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">6</td><td class="td4">new</td><td class="td2">丑八怪</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr1"><td class="td1">7</td><td class="td4">new</td><td class="td2">方圆几里</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">8</td><td class="td4">new</td><td class="td2">不将就</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">9</td><td class="td4">new</td><td class="td2">李白</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr2"><td class="td1">10</td><td class="td4">new</td><td class="td2">小半</td><td class="td3">02：49</td><td class="td3">陈粒</td></tr>
+						<tr class="tr1"><td class="td1">1</td><td class="td4">new</td><td class="td2">往后余生（翻自马良）</td><td class="td3">03：51</td><td class="td3">王贰浪</td></tr>
+							<tr class="tr2"><td class="td1">2</td><td class="td4">new</td><td class="td2">渐渐</td><td class="td3">04：38</td><td class="td3">陈奕迅</td></tr>
+							<tr class="tr1"><td class="td1">3</td><td class="td4">new</td><td class="td2">let it Go</td><td class="td3">02：49</td><td class="td3">88rising...</td></tr>
+							<tr class="tr2"><td class="td1">4</td><td class="td4">new</td><td class="td2">王牌冤家</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">5</td><td class="td4">new</td><td class="td2">哑巴</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">6</td><td class="td4">new</td><td class="td2">丑八怪</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr1"><td class="td1">7</td><td class="td4">new</td><td class="td2">方圆几里</td><td class="td3">02：49</td><td class="td3">薛之谦</td></tr>
+							<tr class="tr2"><td class="td1">8</td><td class="td4">new</td><td class="td2">不将就</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr1"><td class="td1">9</td><td class="td4">new</td><td class="td2">李白</td><td class="td3">02：49</td><td class="td3">李荣浩</td></tr>
+							<tr class="tr2"><td class="td1">10</td><td class="td4">new</td><td class="td2">小半</td><td class="td3">02：49</td><td class="td3">陈粒</td></tr>
+						
+						</table>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+	
+	<style>
+body{margin:0; padding:0}
+#to_top{width:30px; height:40px; padding:20px; font:14px/20px arial; text-align:center;  background:#06c; position:absolute; cursor:pointer; color:#fff}
+</style>
+<script>
+window.onload = function(){
+  var oTop = document.getElementById("to_top");
+  var screenw = document.documentElement.clientWidth || document.body.clientWidth;
+  var screenh = document.documentElement.clientHeight || document.body.clientHeight;
+  oTop.style.left = screenw - oTop.offsetWidth +"px";
+  oTop.style.top = screenh - oTop.offsetHeight + "px";
+  window.onscroll = function(){
+    var scrolltop = document.documentElement.scrollTop || document.body.scrollTop;
+    oTop.style.top = screenh - oTop.offsetHeight + scrolltop +"px";
+  }
+  oTop.onclick = function(){
+    document.documentElement.scrollTop = document.body.scrollTop =0;
+  }
+}  
+
+</script>
+
+	
+	
+	<div id="to_top">返回顶部</div>
+			<div id="xiabian">	
+			<div id="t">
+			<ul id="y">
+				<li>关于网易| 客户服务| 服务条款| 网站导航| 意见反馈</li>
+				<li>网易公司版权所有©1997-2018杭州乐读科技有限公司运营：浙网文[2018]3506-263号</li>
+				<li>违法和不良信息举报电话：0571-89853516 举报邮箱：cloudmusicservice@163.com</li>
+			</ul>
+			<ul>
+				<li style="float: right;"><img src="img/QQ图片20180622120135.png" width="300px"</li>
+			</ul>
+			</div>
+			</div>
+			<script>
+	  	var ul=document.getElementById("n");
+	  	var a=ul.getElementsByTagName("a");
+	  	for(var i=0;i<a.length;i++){
+	  		a[i].onmouseover=function(e){
+	  			this.style.backgroundColor="";
+	  		    this.style.color="white";
+	  		     var dl=this.nextElementSibling;
+	  		    dl.style.display="block";
+	  		}
+	  		a[i].onmouseout=function(e){
+	  			this.style.backgroundColor="#242424";
+	  			this.style.color="white";
+	  			 var dl=this.nextElementSibling;
+	  		      dl.style.display="none";
+	  		}
+	  	}
+	  </script>
+	</body>
+</html>

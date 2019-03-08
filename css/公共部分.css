@@ -1,0 +1,52 @@
+*{
+	margin:0px ;
+	padding:0px ;
+	list-style: none;
+}
+#e li{
+	float: left;
+	padding:10px ;
+	overflow: hidden;
+	color: #FFFFFF;
+}
+#r li{
+	color: white;
+	float: right;
+	padding:10px ;
+	overflow: hidden;
+}
+#wangyiyun{
+	height: 40px;
+	margin-top:-10px;
+}
+#w{
+	margin:0px auto ;width:982px ;padding-top: 40px;
+}
+#q{background-color:#242424;height: 100px;margin-top: -20px;}
+#t{
+	width: 800px;
+	margin: 0px auto;
+	padding-top:100px ;
+	height: 100px;
+	
+}
+#y{
+	float: left;
+	overflow: hidden;
+	font-size: 12px;
+}
+#u{
+	background-color:#C20C0C;
+	height: 5px;
+	margin-top:60px ;
+}
+#xiabian{
+	
+	border-top: #cccccc solid 1px;
+	background-color: #f2f2f2;
+	margin:0px auto;
+	
+}
+#xiabian div{
+	width: 1100px;
+}
